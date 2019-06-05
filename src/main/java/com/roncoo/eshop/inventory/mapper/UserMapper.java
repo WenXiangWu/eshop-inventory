@@ -4,6 +4,6 @@ import com.roncoo.eshop.inventory.model.User;
 
 public interface UserMapper {
 
-	public User findUserInfo();
+	User findUserInfo();
 	
 }

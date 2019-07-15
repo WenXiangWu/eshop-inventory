@@ -22,7 +22,7 @@ public class InitListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         //RequestProcessorThreadPool pool = RequestProcessorThreadPool.getInstance();
-        //初始化
+        //初始化d
         RequestProcessorThreadPool.init();
         System.out.println("系统初始化");
     }
